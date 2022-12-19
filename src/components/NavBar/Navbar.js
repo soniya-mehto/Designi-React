@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './Styles/StylesMain.css';
+import "../../Styles/StylesMain.css"
 
 export default function Navbar() {
   const [ulClass, setUlState] = useState("");

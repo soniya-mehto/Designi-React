@@ -1,5 +1,5 @@
 import React from 'react'
-import CardSection1 from './CardSection1'
+import CardSection1 from '../CardSection1/CardSection1'
 
 export default function WebSection1() {
     const imglink1 = "https://cdn.sanity.io/images/pc8s19ha/production/861dcc6b601c75b40ef4b75a33f0e59123971fa9-700x640.jpg?w=700&h=640&auto=format";

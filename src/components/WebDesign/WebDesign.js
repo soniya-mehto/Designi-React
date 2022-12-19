@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header'
+import Header from '../Header/Header'
 import WebSection1 from './WebSection1'
 import WebSection2 from './WebSection2'
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Section2 from './Section2';
+import Section2 from '../CardSection2/Section2';
 
 
 export default function AppSection2() {

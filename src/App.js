@@ -1,17 +1,17 @@
 import React from 'react'
 //import logo from './logo.svg';
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar/Navbar';
 import './App.css';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import WebDesign from './components/WebDesign';
-import AppDesign from './components/AppDesign'
-import HomeMain from './components/HomeMain';
-import GraphicDesign from './components/GraphicDesign'
+import WebDesign from './components/WebDesign/WebDesign';
+import AppDesign from './components/AppDesign/AppDesign'
+import HomeMain from './components/MainSection/HomeMain';
+import GraphicDesign from './components/GraphicDesign/GraphicDesign'
 
 function App() {
   return (
