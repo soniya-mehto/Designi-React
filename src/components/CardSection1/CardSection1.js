@@ -1,10 +1,11 @@
 import React from 'react'
+import '../../Styles/cardSection1.css'
 
-export default function CardWebSection(props) {
+export default function CardSection1(props) {
   return (
-      <a href="/" className="styles__ProjectCard-pg0ppr-1 cardSection1">
+      <a href="/" className=" cardSection1">
 
-          <div data-gatsby-image-wrapper className="gatsby-image-wrapper gatsby-image-wrapper-constrained">
+          <div data-image-wrapper className="image-wrapper image-wrapper-constrained">
               <div style={{ maxWidth: '700px', display: 'block' }}>
                   <img alt="" aria-hidden="true"
                       src="data:image/svg+xml;charset=utf-8,%3Csvg 

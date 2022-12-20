@@ -1,0 +1,77 @@
+.cardSection1 {
+    margin-top: 2.5rem;
+    text-decoration: none;
+}
+
+.cardSection1 .image-wrapper {
+    border-radius: 15px 15px 0 0;
+}
+
+.cardSection1 h2 {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: var(--peach);
+    letter-spacing: 5px;
+}
+
+.cardSection1 .description {
+    background-color: #fdf3f0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    padding: 1.875rem;
+    transform: translateY(-10px);
+}
+
+.cardSection1 p {
+    margin-top: 0;
+    color: var(--black);
+}
+
+.cardSection1:hover .description,
+.cardSection1:focus .description {
+    background-color: var(--peach);
+}
+
+.cardSection1:hover h2,
+.cardSection1:focus h2 {
+    color: var(--white);
+}
+
+.cardSection1:hover p,
+.cardSection1:focus p {
+    color: var(--white);
+}
+
+@media (min-width:670px) {
+    .cardSection1 {
+        display: flex;
+    }
+
+    .cardSection1 .image-wrapper {
+        border-radius: 15px 0 0 15px;
+    }
+
+    .cardSection1 .description {
+        border-radius: 0 15px 15px 0;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width:1200px) {
+    .cardSection1 {
+        flex-direction: column; 
+        width: fit-content;
+    }
+
+    .cardSection1 .image-wrapper {
+        border-radius: 15px 15px 0 0;
+    }
+
+    .cardSection1 .description {
+        border-radius: 0 0 15px 15px;
+    }
+}

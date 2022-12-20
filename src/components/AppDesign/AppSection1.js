@@ -1,5 +1,6 @@
 import React from 'react'
 import CardSection1 from '../CardSection1/CardSection1'
+import "../../Styles/cardOuterContainer.css"
 
 export default function AppSection1() {
     const imglink1 = "https://cdn.sanity.io/images/pc8s19ha/production/8e936250bc76e1d57549a0f33861495e48eed651-700x640.jpg?w=700&h=640&auto=format";
@@ -15,8 +16,8 @@ export default function AppSection1() {
     const desc5 = "A todo app that features cloud sync with light and dark mode";
 
     return (
-        <div className="styles__Container-pg0ppr-3 iImhnI">
-            <section className="styles__ProjectsContainer-pg0ppr-2 cardsContainer">
+        <div className="cardOuterContainer">
+            <section className="cardsContainer">
 
                 <CardSection1 title="Loopstudios "
                     paraDesc={desc1}

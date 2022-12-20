@@ -1,10 +1,11 @@
 import React from 'react';
 import Section2 from '../CardSection2/Section2'
+import '../../Styles/mainSection2.css'
 
 export default function MainSection2() {
   return (
     <main>
-      <section className="ProjectLinkGrid__StyledProjectGrid-sc-15ocfs4-0 mainSection2">
+      <section className=" mainSection2">
 
         <Section2 backgImgUrl="url(https://cdn.sanity.io/images/pc8s19ha/production/0e1cb82ab2c1547900bd46743845335241a9cd24-541x308.jpg)"
           projectType="Web Design" routeTo="/webDesign"

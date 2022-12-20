@@ -1,5 +1,6 @@
 import React from 'react';
 import Section3Article from './Section3Article';
+import '../../Styles/mainSection3.css'
 
 export default function MainSection3() {
 
@@ -17,7 +18,7 @@ export default function MainSection3() {
 
   return (
       <main>
-          <section className="styles__Grid-sc-1m81i5g-0 mainSection3">
+          <section className=" mainSection3">
               <Section3Article imgLink = {imglink1} quality = {qualityH1} desc = {descP1}/>
               <Section3Article imgLink={imglink2} quality={qualityH2} desc={descP2} />
               <Section3Article imgLink={imglink3} quality={qualityH3} desc={descP3} />

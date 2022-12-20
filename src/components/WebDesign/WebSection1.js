@@ -1,5 +1,7 @@
 import React from 'react'
 import CardSection1 from '../CardSection1/CardSection1'
+import "../../Styles/cardOuterContainer.css"
+
 
 export default function WebSection1() {
     const imglink1 = "https://cdn.sanity.io/images/pc8s19ha/production/861dcc6b601c75b40ef4b75a33f0e59123971fa9-700x640.jpg?w=700&h=640&auto=format";
@@ -17,8 +19,8 @@ export default function WebSection1() {
     const desc6 = "Get expert training in coding, data, design, and digital marketing";
 
     return (
-        <div className="styles__Container-pg0ppr-3 iImhnI">
-            <section className="styles__ProjectsContainer-pg0ppr-2 cardsContainer">
+        <div className=" cardOuterContainer">
+            <section className="cardsContainer">
 
                 <CardSection1 title="Express"
                     paraDesc={desc1}

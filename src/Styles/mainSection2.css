@@ -1,0 +1,23 @@
+
+.mainSection2 {
+    max-width: var(--site-container);
+    display: grid;
+    margin: auto;
+    padding: 100px 1.5rem;
+}
+
+
+@media (min-width:1200px) {
+    .mainSection2 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mainSection2 a:first-child {
+        grid-column: 1;
+        grid-row: 1/3;
+    }
+}

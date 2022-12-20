@@ -1,5 +1,7 @@
 import React from 'react'
 import CardSection1 from '../CardSection1/CardSection1'
+import "../../Styles/cardOuterContainer.css"
+
 
 export default function GraphicSection1() {
     const imglink1 = "https://cdn.sanity.io/images/pc8s19ha/production/72b725dd4058439b306fdac9951f74500967dd68-700x640.jpg?w=700&h=640&auto=format";
@@ -11,8 +13,8 @@ export default function GraphicSection1() {
     const desc3 = "A poster made in collaboration with the Federal Art Project";
 
     return (
-        <div className="styles__Container-pg0ppr-3 iImhnI">
-            <section className="styles__ProjectsContainer-pg0ppr-2 cardsContainer">
+        <div className="cardOuterContainer">
+            <section className="cardsContainer">
 
                 <CardSection1 title="Tim Brown"
                     paraDesc={desc1}

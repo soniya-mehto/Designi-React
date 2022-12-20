@@ -1,0 +1,30 @@
+.section2-card-container {
+    max-width: var(--site-container);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 4rem;
+}
+
+.section2-card-container a {
+    width: 100%;
+}
+
+@media (min-width:1000px) {
+    .section2-card-container {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        margin-left: 0;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .section2-card-container a {
+        width: calc(50% - 8px);
+    }
+}

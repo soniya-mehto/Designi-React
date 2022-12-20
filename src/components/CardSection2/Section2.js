@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../../Styles/section2.css'
 
 export default function Section2(props) {
     let styleobject = { backgroundImage: props.backgImgUrl }
     return (
         <Link
             style={styleobject}
-            className="styles__ProjectLink-sc-1gyqmh8-0 section2" to={props.routeTo}>
+            className="section2" to={props.routeTo}>
             <h2>{props.projectType}</h2>
             <span>View Projects
                 <img

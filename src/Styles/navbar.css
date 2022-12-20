@@ -1,0 +1,124 @@
+.nav-bar-style {
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    margin: auto;
+    max-width: var(--site-container);
+}
+
+.nav-bar-style a {
+    text-decoration: none;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+.nav-bar-style a:hover,
+.nav-bar-style a:focus {
+    text-decoration: underline;
+}
+
+.nav-bar-style a:focus {
+    outline: 3px dashed var(--peach);
+    outline-offset: 8px;
+}
+
+.nav-bar-style img {
+    height: 27px;
+}
+
+@media (min-width:1200px) {
+    .nav-bar-style {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 1.8125rem;
+    }
+}
+
+.nav-bar-style-2 .overlay {
+    display: none;
+}
+
+.nav-bar-style-2 ul {
+    display: none;
+}
+
+.nav-bar-style-2 .logoLink {
+    display: inline-flex;
+}
+
+.nav-bar-style-2 button>img {
+    height: 20px;
+    width: 20px;
+}
+
+.nav-bar-style-2 button {
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-bar-style-2 ul.active {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    margin-top: 0;
+    top: 96px;
+    padding: 48px 24px;
+    left: 0;
+    background-color: var(--black);
+    z-index: 10;
+}
+
+.nav-bar-style-2 ul.active li {
+    margin-left: 42px;
+    margin-bottom: 32px;
+}
+
+.nav-bar-style-2 ul.active a {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.nav-bar-style-2 .overlay-active {
+    width: 100vw;
+    height: calc(100vh - 96px);
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 96px;
+    left: 0;
+    z-index: 1;
+}
+
+@media (min-width:670px) {
+    .nav-bar-style-2 ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .nav-bar-style-2 ul.active {
+        display: none;
+    }
+
+    .nav-bar-style-2 li {
+        margin-left: 42px;
+    }
+
+    .nav-bar-style-2 button,
+    .nav-bar-style-2 .overlay-active {
+        display: none;
+    }
+}
+
+.nav-bar-style-2 ul.active li:last-child {
+    margin-bottom: 0;
+}
