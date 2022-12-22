@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Navbar from './components/NavBar/Navbar';
 import './App.css';
 import Footer from './components/Footer/Footer';
@@ -19,18 +18,13 @@ function App() {
     <Router>
     <Navbar/>
     <Routes>
-          <Route exact path="/webDesign" element={<WebDesign />}>
-            
-          </Route>
-          <Route exact path="/appDesign" element={<AppDesign />}>
+          <Route exact path="/webDesign" element={<WebDesign />}></Route>
 
-          </Route>
-          <Route exact path="/graphicDesign" element={<GraphicDesign />}>
+          <Route exact path="/appDesign" element={<AppDesign />}></Route>
 
-          </Route>
-          <Route exact path='/' element={<HomeMain/>}>
-    
-          </Route>
+          <Route exact path="/graphicDesign" element={<GraphicDesign />}></Route>
+
+          <Route exact path='/' element={<HomeMain/>}></Route>
     </Routes>
     <Footer/>
     </Router>

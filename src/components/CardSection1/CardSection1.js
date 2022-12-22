@@ -1,9 +1,10 @@
-import React from 'react'
-import '../../Styles/cardSection1.css'
+import React from 'react';
+import '../../Styles/cardSection1.css';
+import { Link } from 'react-router-dom';
 
 export default function CardSection1(props) {
   return (
-      <a href="/" className=" cardSection1">
+      <Link to="/" className=" cardSection1">
 
           <div data-image-wrapper className="image-wrapper image-wrapper-constrained">
               <div style={{ maxWidth: '700px', display: 'block' }}>
@@ -28,6 +29,6 @@ export default function CardSection1(props) {
               <p>{props.paraDesc}</p>
           </div>
 
-      </a>
+      </Link>
   )
 }

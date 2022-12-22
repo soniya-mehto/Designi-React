@@ -14,13 +14,8 @@
 
 @media (min-width:1000px) {
     .section2-card-container {
-        -webkit-flex-direction: row;
-        -ms-flex-direction: row;
         flex-direction: row;
         margin-left: 0;
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 

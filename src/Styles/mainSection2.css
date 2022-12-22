@@ -1,11 +1,9 @@
-
 .mainSection2 {
     max-width: var(--site-container);
     display: grid;
     margin: auto;
     padding: 100px 1.5rem;
 }
-
 
 @media (min-width:1200px) {
     .mainSection2 {

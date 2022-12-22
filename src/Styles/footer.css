@@ -1,9 +1,6 @@
 .footerMain {
- 
     display: flex;
-   
     flex-direction: column;
-   
 }
 
 .footerMain img {
@@ -31,24 +28,21 @@
 }
 
 .footerMain a:focus {
+    outline: 3px dashed var(--peach);
     outline-offset: 8px;
 }
 
 @media (min-width:670px) {
     .footerMain {
-     
         flex-direction: row;
         justify-content: space-between;
-      
         align-items: center;
         border-bottom: 1px solid var(--dark-grey);
         padding-bottom: 2.875rem;
     }
 
     .footerMain ul {
-       
         display: flex;
-      
     }
 
     .footerMain li {
@@ -59,20 +53,16 @@
 
 .footerLogo {
     width: 100%;
-
 }
 
 @media (min-width:670px) {
     .footerLogo {
         width: auto;
-     
     }
 }
 
 .footerBottomText {
- 
     display: flex;
-    
     flex-direction: column;
     color: rgba(241, 243, 245, 0.5);
     margin-bottom: 2rem;
@@ -97,9 +87,7 @@
 
 .footer-Social-Icons {
     list-style: none;
-   
     display: flex;
-    
     justify-content: space-between;
     align-items: center;
     width: 184px;
@@ -120,7 +108,6 @@
     .footer-Social-Icons {
         margin-right: 0;
         margin-bottom: 0;
-
         align-items: flex-end;
     }
 }
@@ -144,7 +131,6 @@
     padding: 3.75rem;
     border-radius: 15px;
     z-index: 6;
-   
     transform: translateY(4.5rem);
 }
 
@@ -165,11 +151,8 @@
 @media (min-width:670px) {
     .bottomCard {
         background-position: right;
-       
         display: flex;
-        
         justify-content: space-between;
-       
         align-items: center;
         padding: 4.5rem 6rem;
         text-align: left;
