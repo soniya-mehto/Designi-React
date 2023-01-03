@@ -100,18 +100,21 @@ const cardSection2Data = [
     {
         id: 1,
         projectType: "App Design",
+        subline:"View Projects",
         backgImgUrl: "url(https://cdn.sanity.io/images/pc8s19ha/production/0eebae0a61b55540c4099ea7425373b8a1ee46d2-541x308.jpg)",
         routeTo: "/appDesign"
     },
     {
         id: 2,
         projectType: "Graphic Design",
+        subline: "View Projects",
         backgImgUrl: "url(https://cdn.sanity.io/images/pc8s19ha/production/ed8c19f76997401ddb2d149f317ad2b000142ece-541x308.jpg)",
         routeTo: "/graphicDesign"
     },
     {
         id: 3,
         projectType: "Web Design",
+        subline: "View Projects",
         backgImgUrl: "url(https://cdn.sanity.io/images/pc8s19ha/production/0e1cb82ab2c1547900bd46743845335241a9cd24-541x308.jpg)",
         routeTo: "/webDesign"
     }

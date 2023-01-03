@@ -13,8 +13,10 @@ export default function GraphicSection2() {
                     cardSection2Data.filter(cardData => cardData.id !== 2).map(cardData => {
                         return (
                             <Section2
+                                key={cardData.id}
                                 backgImgUrl={cardData.backgImgUrl}
                                 projectType={cardData.projectType}
+                                subline={cardData.subline}
                                 routeTo={cardData.routeTo}
                             />
                         );

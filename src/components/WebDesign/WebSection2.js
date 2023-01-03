@@ -12,8 +12,10 @@ export default function WebSection2() {
                         cardSection2Data.filter(cardData => cardData.id !== 3).map(cardData => {
                             return (
                                 <Section2
+                                    key={cardData.id}
                                     backgImgUrl={cardData.backgImgUrl}
                                     projectType={cardData.projectType}
+                                    subline={cardData.subline}
                                     routeTo={cardData.routeTo}
                                 />
                             );
